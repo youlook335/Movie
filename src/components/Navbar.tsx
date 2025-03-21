@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-gray-900 text-white sticky top-0 w-full z-50 shadow-lg">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container-fluid mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold flex items-center space-x-2">
           <span>BootPress</span>
@@ -22,6 +22,14 @@ const Navbar: React.FC = () => {
               className="hover:text-yellow-400 transition duration-300"
             >
               Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/Drama"
+              className="hover:text-yellow-400 transition duration-300"
+            >
+              Dramas
             </Link>
           </li>
           <li>
