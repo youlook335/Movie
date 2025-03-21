@@ -36,7 +36,7 @@ const MovieDetails = () => {
       {/* <img
         src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
         alt={movie.title}
-        className="my-4 rounded-lg shadow-lg"
+        className="my-4 rounded-lg"
       /> */}
       <p className="mb-4">{movie.overview}</p>
 

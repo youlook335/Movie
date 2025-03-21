@@ -24,4 +24,3 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoUrl }) => {
 };
 
 export default VideoPlayer;
-// Hey, Cortana. Government level. Hey, Cortana. Hey, Cortana, Iqbal. Shooting. A big star was a big man in the dark as well as his mother. Rolls-royce. 

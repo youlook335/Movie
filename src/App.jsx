@@ -2,8 +2,8 @@ import { Route, Routes } from 'react-router-dom'; // ✅ Router کو import نہ
 import './App.css';
 import Home from './pages/Home';
 import MovieDetails from './pages/MovieDetails';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
